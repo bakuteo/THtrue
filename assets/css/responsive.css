@@ -24,6 +24,7 @@
   .form__login-reward {
     width: 100%;
   }
+
   .header__page-wrap-slidebar--navbar {
     width: 48px;
     height: 48px;
@@ -46,6 +47,53 @@
   }
   .join-text br {
     display: none;
+  }
+
+  .step-join {
+    flex-direction: column;
+    width: 100%;
+  }
+  .step {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .step-col {
+    margin-bottom: 20px;
+    width: 50%;
+  }
+
+  .award-struct {
+    flex-wrap: wrap;
+  }
+
+  .award-text {
+    bottom: 144px;
+  }
+  .wrap-award {
+    line-height: 30px;
+    font-size: 1rem;
+  }
+  .wrap-text-award {
+    font-size: 14px;
+  }
+
+  .form-enter-code-award {
+    width: auto;
+  }
+
+  .image-view {
+    margin-top: 35px;
+    width: 100%;
+  }
+
+  .footer-list {
+    width: auto;
+    flex-direction: column;
+  }
+  .footer-infor {
+    width: auto;
+    margin-top: 35px;
   }
 }
 
