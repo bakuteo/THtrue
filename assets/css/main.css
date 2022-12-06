@@ -46,7 +46,7 @@ img {
   cursor: pointer;
 }
 
-.header__page-navbar-menu-wrap:hover .line-3 {
+.header__page:hover .line-3 {
   width: 100%;
 }
 
